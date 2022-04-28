@@ -1,0 +1,42 @@
+﻿#editform label.info,
+#addform label.info,
+#loginform label.info {
+    width: 120px;
+    display: inline-block;
+}
+#editform .warning {
+    width: 320px;
+    display:inline;
+}
+
+#editform input.text, textbox.text,
+#addform input.text, textbox.text,
+#loginform input.text, textbox.text {
+    margin: 2px;
+    margin-left: 4px;
+    width: 150px;
+}
+
+.button{
+    margin-top: 15px;
+    padding: 5px;
+}
+
+table tr td button {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#validationSummary {
+    color:darkorange;
+}
+
+table, td, th {
+    border: thin solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    background-color: lemonchiffon;
+    text-align: center;
+    margin: 10px 0;
+}
